@@ -1,0 +1,66 @@
+.banner-area {
+    height: 550px;
+    width: 100%;
+    background-image: url("../image/homepage-introduce-area-title-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30px ;
+}
+
+.banner-area div {
+    height: 100%; 
+}
+
+.booking-area {
+    /* height: 700px; */
+    width: 100%;
+}
+
+.booking-content {
+    height: 100%;
+    width: 70%;
+    padding: 100px 0;
+}
+
+.booking-content-1 {
+    
+}
+
+.reservation-text {
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    color: crimson;
+}
+
+.booktable-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.book-input {
+    font-family : 'Montserrat', sans-serif;
+}
+
+.book-input .row {
+    margin: 30px 0;
+}
+
+.book-input input {
+    border-radius: 7px;
+}
+
+.button-form {
+    margin: auto;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    font-size: 13px;
+    margin-top:20px;
+}
+
+.button-form:hover {
+    background-color: crimson;
+    border: 1px solid white;
+}

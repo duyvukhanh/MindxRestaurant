@@ -1,0 +1,20 @@
+.admin-menu-image {
+    height: 64px;
+    width: 64px;
+}
+
+.admin-menu-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#addBtn {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}

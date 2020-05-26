@@ -1,0 +1,175 @@
+.banner-area {
+    height: 550px;
+    width: 100%;
+    background-image: url("../image/homepage-introduce-area-title-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30px ;
+}
+
+.banner-area div {
+    height: 100%; 
+}
+
+
+.menu-area {
+    /* height: 700px; */
+    width: 100%;
+}
+
+.menu-content {
+    height: 100%;
+    width: 70%;
+    overflow: hidden;
+}
+
+.menu-content-1, .menu-content-2 {
+    flex-grow : 1;
+    flex-basis: 0;
+    padding: 100px 50px 0 50px;
+}
+
+.menu {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.menu-title {
+    font-family: Montserrat;
+    font-size: 22px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.menu-dishes {
+    width: 100%;
+    margin: 30px 0;
+}
+
+.menu-dishes-1 {
+
+}
+
+.menu-dishes-name {
+    font-family: Montserrat;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.menu-dishes-dot {
+    flex-grow : 1;
+    flex-basis: 0;
+}
+
+.menu-dishes-price {
+    font-family: Montserrat;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.menu-dishes-2 {
+
+}
+
+.menu-dishes-description {
+    font-family: Montserrat;
+    font-size: 12px;
+}
+
+
+.meal-title {
+    height: 350px;
+    width: 100%;
+    background-image: url("../image/homepage-introduce-area-title-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30px ;
+}
+
+
+.meal-title div {
+    height: 100%; 
+}
+
+
+.meal-area {
+    /* height: 700px; */
+}
+
+.meal-content {
+    height: 100%;
+    width: 70%;
+    overflow: hidden;
+}
+
+.meal-content-1 {
+    flex-grow: 1;
+    flex-basis: 0;
+    overflow: hidden;
+    padding: 100px 40px;
+}
+
+.meal-card-group {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.meal-card {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.flex-grow-2 {
+    flex-grow: 2;
+    flex-basis: 0;
+}
+
+.meal-card-img {
+    padding : 20px 0;
+}
+
+.meal-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.meal-card-info {
+    padding : 20px 0;
+}
+
+.meal-card-info-1 {
+ padding : 0 30px;
+}
+
+.meal-card-info-name {
+    font-family: Montserrat;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.meal-card-info-description {
+    font-family: Montserrat;
+    font-size: 12px;
+    margin-bottom: 12px;
+
+}
+
+.meal-card-info-price {
+    font-family: Montserrat;
+    font-size: 17px;
+    text-transform: uppercase;
+}

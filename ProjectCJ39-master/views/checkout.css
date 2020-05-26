@@ -1,0 +1,137 @@
+.banner-area {
+    height: 550px;
+    width: 100%;
+    background-image: url("../image/homepage-introduce-area-title-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30px ;
+}
+
+.banner-area div {
+    height: 100%; 
+}
+
+.booking-area {
+    /* height: 700px; */
+    width: 100%;
+}
+
+
+.content-container {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.title {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+    padding: 40px 20px;
+}
+
+.content {
+    width: 70%;
+}
+
+.step-1 {
+    padding : 0 25px;
+}
+
+.step-2 {
+    padding : 0 50px;
+    font-family : 'Montserrat', sans-serif;
+    background-color:#d94a66 ;
+    color: #f7f7f7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.grow-2 {
+    flex-grow: 2;
+    flex-basis: 0;
+}
+
+.item {
+    /* height: 100px; */
+    width: 100%;
+    background-color: #ececec;
+    padding: 20px 20px;
+    font-family : 'Montserrat', sans-serif;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.item-img img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.item-info {
+    flex-grow: 1;
+    padding : 20px 20px;
+    overflow: hidden;
+}
+
+.item-quantity {
+    width: 150px;
+    height: 100px;
+    padding : 20px 20px;
+
+}
+
+.item-price {
+    width: 100px;
+    height: 100px;
+    padding : 20px 20px;
+}
+
+.total-price {
+    width: 100%;
+    padding: 40px 20px;
+    font-family : 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.total-price span{
+    margin-left : 10px;
+}
+
+.step1-title {
+    font-weight: bold;
+    padding : 20px 0;
+}
+
+.step1 {
+    padding: 0 20px;
+}
+
+.step1 input {
+    outline: 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #f7f7f7;
+    background-color: #d94a66;
+    color: #f7f7f7;
+}
+
+.step1 input:hover{
+    transform: scale(1.05)
+}
+
+.detail input {
+    margin-bottom : 20px
+}
+
+.step1-button {
+    margin : 80px 0
+}
+
+.step1-button button{
+    width: 300px;
+    height: 50px;
+}

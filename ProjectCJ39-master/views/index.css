@@ -1,0 +1,263 @@
+#homepage-banner {
+  content: '';
+  background-color: #000;
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+
+#banner-area {
+  /* z-index: 1; */
+  background-image: url("../image/homepage-banner-densi.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+#navbar.text-to-dark a {
+    color: black;
+}
+
+#banner-content {
+    margin-left: 200px;
+    
+}
+
+#welcome-text {
+  font-family: 'Courgette', cursive;
+  font-size: 40px;
+  animation: animatetop 1s;
+}
+
+#mindx-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+  animation: animatebottom 1s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
+
+#menu-text {
+  margin-top: 30px;
+}
+
+#menu-text button{
+  font-family : 'Montserrat', sans-serif;
+  width: 200px;
+  background-color: white;
+  font-size: 15px;
+  height: 50px;
+  border-radius: 20px;
+  color: crimson;
+  animation-fill-mode: both;
+  animation-delay: 2s;
+}
+
+#menu-text button:hover {
+  color: lightgray;
+  background-color: crimson;
+}
+
+.openning-area {
+  height: 65vh;
+}
+
+
+.openning-content {
+  width: 70%;
+  /* height: 100%; */
+}
+
+.openning-content-1 {
+  width: 50%;
+  height: 100%;
+}
+
+.openning-content-2 {
+  width: 50%;
+  height: 100%;
+  padding: 60px 0 60px 30px;
+}
+
+.openning-content-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.intro {
+  padding: 30px;
+}
+
+.intro div{
+  width: 100%;
+}
+
+.intro p{
+  width: 100%;
+  font-weight: lighter;
+  font-family : 'Montserrat';
+  text-align: center;
+  font-size: 15px;
+  margin: 20px 0;
+}
+
+.introduce-area-title {
+  height: 400px;
+  width: 100%;
+  background-image: url("../image/homepage-introduce-area-title-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.introduce-area-content {
+  /* height: 600px; */
+  width: 70%;
+  margin: auto;
+  padding-top: 40px ;
+  /* padding-bottom: 40px; */
+}
+
+.introduce-area-card {
+  position: relative;
+}
+
+.learn-more {
+  position: absolute;
+  bottom: 30px;
+}
+
+.introduce-area-content-1, .introduce-area-content-2, .introduce-area-content-3 {
+  height: 500px;
+}
+
+.introduce-area-card {
+  height: 100%;
+  width: 100%;
+}
+
+.introduce-area-card-img {
+  height: 50%;
+  width: 100%;
+}
+
+
+
+.introduce-area-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.introduce-area-content-1 {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 20px;
+}
+
+.introduce-area-content-2 {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 20px;
+}
+
+.introduce-area-content-3 {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 20px;
+}
+
+.menu-area-title {
+  height: 250px;
+  width: 100%;
+  background-color: rgb(237, 242, 201);
+}
+
+.menu-area {
+  height: 900px;
+  width: 100%;
+  margin: auto;
+  background-color: rgb(237, 242, 201);
+}
+
+.menu-area-content {
+  height: 100%;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 70px;
+}
+
+.homepage-menu-item {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 20px;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.homepage-menu-item button{
+  font-family : 'Montserrat', sans-serif;
+  width: 200px;
+  background-color: white;
+  font-size: 20px;
+  height: 70px;
+  border-radius: 20px;
+  color: crimson;
+  animation-fill-mode: both;
+  animation-delay: 2s;
+  opacity: 0.7;
+  border: none;
+}
+
+.homepage-menu-item button:hover {
+  color: lightgray;
+  background-color: crimson;
+  opacity: 1;
+}
+
+.review-area-title {
+  width: 70%;
+  /* height: 30vh; */
+  margin: auto;
+  padding-top: 30px;
+}
+
+.review-area-content {
+  width: 70%;
+  height: 500px;
+  margin: auto;
+}
+
+.review img {
+  width: 170px; 
+  height: 170px; 
+  object-fit: cover;
+  margin-bottom: 50px;
+  border: 5px solid crimson;
+}
+
+.review h3 {
+  margin-bottom: 50px;
+}
+
+
+.review-vote {
+  margin-bottom: 30px;
+}
+
+.review-vote i {
+  color: crimson;
+}
+
+.aTag {
+  text-decoration: none;
+  font-family : 'Montserrat', sans-serif;
+  font-size: 18px;
+}

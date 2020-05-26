@@ -1,0 +1,109 @@
+.banner-area {
+    height: 550px;
+    width: 100%;
+    background-image: url("../image/homepage-introduce-area-title-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30px ;
+}
+
+.banner-area div {
+    height: 100%; 
+}
+
+.review-area-title {
+    width: 70%;
+    margin: auto;
+    padding: 100px;
+}
+
+.intro p {
+    font-family : 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 0 100px;
+}
+
+.introduce-area-title {
+    height: 40vh;
+    width: 100%;
+    background-image: url("../image/homepage-introduce-area-title-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+.chef-area {
+    width: 100%;
+    /* height: 700px; */
+}
+
+.chef-content {
+    width: 70%;
+    height: 100%;
+}
+
+.grow-1 {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.card-container {
+    height: 600px;
+    padding: 100px 50px;
+}
+
+.card-container .card {
+    padding-top: 60px ;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-family : 'Montserrat', sans-serif;
+    border: none;
+}
+
+.card-img img {
+    top: 0;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 50%;
+    border: 4px solid crimson;
+}
+
+
+.card-content {
+    height: 100%;
+    overflow:hidden;
+    padding-top: 100px;
+    border-radius: 10px;
+    border : 2px solid #e6e6e6;
+}
+
+.card-content div {
+    font-weight: bold;
+}
+
+.card-content p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.card-content-name {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.card-content-name:hover {
+    cursor: pointer;
+    color: crimson;
+}
+
+.card-content-position {
+    font-size: 12px;
+    margin-bottom: 5px;
+}

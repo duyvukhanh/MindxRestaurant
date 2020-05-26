@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="../utils/fontawesome-free-5.12.1-web/css/all.css">
+    <link rel="stylesheet" href="../utils/navbar.css">
+    <link rel="stylesheet" href="menu.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="app" class="">
+
+        <nav class="navbar navbar-expand-lg navbar-light d-flex" id="navbar">
+        </nav>
+
+        <div class="banner-area">
+            <div class="d-flex justify-content-center text-light align-items-center"
+                style="font-family: 'Poppins', sans-serif; font-size: 50px; letter-spacing: 15px;">MINDX MENU</div>
+        </div>
+
+        <div class="menu-area d-flex justify-content-center">
+            <div class="menu-content d-flex">
+                <div class="menu-content-1">
+                    <div class="menu"  id="starters">
+                        <!--  -->
+                    </div>
+
+                    <div class="menu" id="drinks">
+                        <!--  -->
+                    </div>
+                </div>
+                <div class="menu-content-2">
+                    <div class="menu" id="main">
+                        <!--  -->
+
+                    </div>
+                    <div class="menu" id="dessert">
+                        <!--  -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="meal-title">
+            <div class="d-flex justify-content-center text-light align-items-center"
+                style="font-family: 'Poppins', sans-serif; font-size: 50px; letter-spacing: 15px;" id="lunch">LUNCH</div>
+        </div>
+
+        <div class="meal-area d-flex justify-content-center">
+            <div class="meal-content d-flex" id="lunchMenu">
+               <!--  -->
+            </div>
+        </div>
+
+
+        <div class="meal-title">
+            <div class="d-flex justify-content-center text-light align-items-center"
+                style="font-family: 'Poppins', sans-serif; font-size: 50px; letter-spacing: 15px;" id="dinner">DINNER</div>
+        </div>
+
+        <div class="meal-area d-flex justify-content-center">
+            <div class="meal-content d-flex" id="dinnerMenu">
+                <!--  -->
+            </div>
+        </div>
+
+
+
+        <div class="subcribe-area d-flex justify-content-center align-items-center" id="subscribe"></div>
+        <div class="contact-area" id="contact"></div>
+        <div class="footer d-flex justify-content-center align-items-center" id="footer"></div>
+       
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-firestore.js"></script>
+
+
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDMWzZQMVaG8Xd2tnM0EFumOQ7NYH2C3LE",
+            authDomain: "mindx-cj39-project.firebaseapp.com",
+            databaseURL: "https://mindx-cj39-project.firebaseio.com",
+            projectId: "mindx-cj39-project",
+            storageBucket: "mindx-cj39-project.appspot.com",
+            messagingSenderId: "300478582762",
+            appId: "1:300478582762:web:c45f62772ff550702e6c93"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const DB = firebase.firestore();
+    </script>
+    <script src="../utils/navbar.js"></script>
+    <script src="../utils/footer.js"></script>
+    <script src="./menu.js"></script>
+    <script src="../utils/subcribe.js"></script>
+</body>
+
+</html>

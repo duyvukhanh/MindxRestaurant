@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">MindX Admin Site</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="./users.html">Users</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./booking.html">Booking</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./orders.html">Orders</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <h1>Menu</h1>
+
+        <form id="addMenuForm">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter name of dish">
+            </div>
+            <div class="form-group">
+                <label for="price">Price</label>
+                <input type="text" class="form-control" id="price" placeholder="Enter price">
+            </div>
+            <div class="form-group">
+                <label for="imageURL">Image URL</label>
+                <input type="text" class="form-control" id="imageURL" placeholder="Image URL">
+            </div>
+            
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" value="starters">
+                <label class="form-check-label" for="starters">Starters</label>
+                <br>
+                <input type="checkbox" class="form-check-input" value="main">
+                <label class="form-check-label" for="main">Main</label>
+                <br>
+                <input type="checkbox" class="form-check-input" value="drinks">
+                <label class="form-check-label" for="drinks">Drinks</label>
+                <br>
+                <input type="checkbox" class="form-check-input" value="dessert">
+                <label class="form-check-label" for="dessert">Dessert</label>
+                <br>
+                <input type="checkbox" class="form-check-input" value="lunch">
+                <label class="form-check-label" for="lunch">Lunch</label>
+                <br>
+                <input type="checkbox" class="form-check-input" value="dinner">
+                <label class="form-check-label" for="dinner">Dinner</label>
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea type="text" class="form-control" id="description" placeholder="Description" rows="5"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" id="submitAddMenu">Submit</button>
+        </form>
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-firestore.js"></script>
+
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+ https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDMWzZQMVaG8Xd2tnM0EFumOQ7NYH2C3LE",
+            authDomain: "mindx-cj39-project.firebaseapp.com",
+            databaseURL: "https://mindx-cj39-project.firebaseio.com",
+            projectId: "mindx-cj39-project",
+            storageBucket: "mindx-cj39-project.appspot.com",
+            messagingSenderId: "300478582762",
+            appId: "1:300478582762:web:c45f62772ff550702e6c93"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const DB = firebase.firestore();
+
+    </script>
+    <script src="../controllers/menu-add.js"></script>
+
+</body>
+
+</html>
